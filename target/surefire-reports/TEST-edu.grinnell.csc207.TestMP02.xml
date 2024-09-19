@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.grinnell.csc207.TestMP02" time="0.121" tests="23" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/morenoni/csc207/MPs/calculator/target/test-classes:/home/morenoni/csc207/MPs/calculator/target/classes:/home/morenoni/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/morenoni/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/morenoni/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/morenoni/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/morenoni/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/morenoni/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-17"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/morenoni/csc207/MPs/calculator/target/surefire/surefirebooter-20240918213239865_3.jar /home/morenoni/csc207/MPs/calculator/target/surefire 2024-09-18T21-32-39_751-jvmRun1 surefire-20240918213239865_1tmp surefire_0-20240918213239865_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/morenoni/csc207/MPs/calculator/target/test-classes:/home/morenoni/csc207/MPs/calculator/target/classes:/home/morenoni/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/morenoni/.m2/repository/org/junit/platform/junit-platform-engine/1.9.1/junit-platform-engine-1.9.1.jar:/home/morenoni/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/morenoni/.m2/repository/org/junit/platform/junit-platform-commons/1.9.1/junit-platform-commons-1.9.1.jar:/home/morenoni/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/morenoni/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/morenoni"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/morenoni/csc207/MPs/calculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/morenoni/csc207/MPs/calculator/target/surefire/surefirebooter-20240918213239865_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-Debian-2deb12u1"/>
+    <property name="user.name" value="morenoni"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.1.0-23-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/morenoni/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/home/morenoni/csc207/MPs/calculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.vm.version" value="17.0.12+7-Debian-2deb12u1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testBfcClearAfterAdd" classname="edu.grinnell.csc207.TestMP02" time="0.04"/>
+  <testcase name="testBfSimplify" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfParseNegative" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfMultiply" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBFcInit" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfrsIndependentUpdate" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfcMultiply" classname="edu.grinnell.csc207.TestMP02" time="0.0"/>
+  <testcase name="testBfcClear" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfAdd" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfParseWhole" classname="edu.grinnell.csc207.TestMP02" time="0.0"/>
+  <testcase name="testBfReturnWhole" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfParse" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfcMany" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfrsNew" classname="edu.grinnell.csc207.TestMP02" time="0.002"/>
+  <testcase name="testBfrsBasics" classname="edu.grinnell.csc207.TestMP02" time="0.0"/>
+  <testcase name="testBfSubtract" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfrsUpdate" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfcSubtract" classname="edu.grinnell.csc207.TestMP02" time="0.0"/>
+  <testcase name="testBfcDivide" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfcAdd" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfcNew" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+  <testcase name="testBfParseSimplify" classname="edu.grinnell.csc207.TestMP02" time="0.0"/>
+  <testcase name="testBfDivide" classname="edu.grinnell.csc207.TestMP02" time="0.001"/>
+</testsuite>
