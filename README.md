@@ -11,6 +11,6 @@ For InteractiveCalculator, after starting the program input style is line by lin
 
 CITATIONS:
 Sam provided most of the code for Big Fraction through the lab.
-Drew Fargo, my lab partner, did the implementation of some.
+Drew Fargo, my lab partner, did the implementation of some methods.
 
 https://github.com/morenoni/calculator.git
